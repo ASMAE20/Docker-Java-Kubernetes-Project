@@ -9,7 +9,7 @@ mvn clean install
 
 This command aims to create the snapshot file to use it in DockerFile
 
-Then we create images for all microservice using this command 
+Then we create images for all microservices using this command 
 
 ``````
 docker build -t asmaeel/imageproduct:latest .
