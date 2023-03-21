@@ -20,7 +20,7 @@ Then we push it to docker hub using
 docker push asmaeel/imageshop
 ``````
 
-And Finally , after we create all the yaml file nedeed we deploy our java microservices application on K8s using this command 
+And finally, after we create all the YAML files needed, we deploy our Java microservices application on K8s using this command.
 
 ``````
 kubectl apply -f imageproduct-service.yaml
